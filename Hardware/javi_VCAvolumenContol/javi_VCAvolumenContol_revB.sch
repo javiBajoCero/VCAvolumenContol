@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3189,7 +3189,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-5.08" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="SIGNAL_L" class="0">
 <segment>
 <pinref part="LM13700M" gate="A" pin="IOUT"/>
 <pinref part="LM13700M" gate="BUFA" pin="IN"/>
@@ -3198,9 +3198,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="114.3" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
 <junction x="114.3" y="40.64"/>
+<label x="104.14" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="SIGNAL_R" class="0">
 <segment>
 <pinref part="LM13700M" gate="B" pin="IOUT"/>
 <pinref part="LM13700M" gate="BUFB" pin="IN"/>
@@ -3209,9 +3210,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="114.3" y1="-7.62" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-10.16" x2="114.3" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="114.3" y="-7.62"/>
+<label x="104.14" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="OUT_R" class="0">
 <segment>
 <pinref part="LM13700M" gate="BUFB" pin="OUT"/>
 <wire x1="138.43" y1="-7.62" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
@@ -3220,9 +3222,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="144.78" y1="-7.62" x2="165.1" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="144.78" y="-7.62"/>
 <pinref part="COUPLING_C_R" gate="G$1" pin="1"/>
+<label x="139.7" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="OUT_L" class="0">
 <segment>
 <pinref part="LM13700M" gate="BUFA" pin="OUT"/>
 <pinref part="ROUT_L" gate="G$1" pin="2"/>
@@ -3231,6 +3234,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="144.78" y1="40.64" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
 <junction x="144.78" y="40.64"/>
 <pinref part="COUPLING_C_L" gate="G$1" pin="1"/>
+<label x="139.7" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3240,7 +3244,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="43.18" y1="-17.78" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="V+_R" class="0">
 <segment>
 <pinref part="RP_R" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-2.54" x2="43.18" y2="0" width="0.1524" layer="91"/>
@@ -3249,9 +3253,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="RIN_R" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
 <junction x="43.18" y="0"/>
+<label x="58.42" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="V+_L" class="0">
 <segment>
 <pinref part="RP_L" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="45.72" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
@@ -3260,36 +3265,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="RIN_L" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <junction x="43.18" y="48.26"/>
+<label x="58.42" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="BIAS_L" class="0">
 <segment>
 <pinref part="RD_L" gate="G$1" pin="1"/>
 <pinref part="LM13700M" gate="A" pin="BIAS"/>
 <wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<label x="60.96" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="BIAS_R" class="0">
 <segment>
 <pinref part="RD_R" gate="G$1" pin="1"/>
 <pinref part="LM13700M" gate="B" pin="BIAS"/>
 <wire x1="60.96" y1="-7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
+<label x="60.96" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="VC_IN_R" class="0">
 <segment>
 <pinref part="RC_R" gate="G$1" pin="1"/>
 <pinref part="LM13700M" gate="B" pin="IABC"/>
 <wire x1="33.02" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="12.7" x2="96.52" y2="-2.54" width="0.1524" layer="91"/>
+<label x="91.44" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="VC_IN_L" class="0">
 <segment>
 <pinref part="RC_L" gate="G$1" pin="1"/>
 <pinref part="LM13700M" gate="A" pin="IABC"/>
 <wire x1="33.02" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="60.96" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
+<label x="91.44" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3358,13 +3368,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.86" y1="40.64" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="V-_L" class="0">
 <segment>
 <pinref part="RP_L1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="22.86" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="LM13700M" gate="A" pin="IN-"/>
 <wire x1="60.96" y1="33.02" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
+<label x="58.42" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -3374,13 +3385,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="43.18" y1="33.02" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="V-_R" class="0">
 <segment>
 <pinref part="RP_R1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="-27.94" x2="55.88" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-27.94" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="LM13700M" gate="B" pin="IN-"/>
 <wire x1="55.88" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
+<label x="58.42" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

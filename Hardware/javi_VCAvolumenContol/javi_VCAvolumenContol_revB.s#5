@@ -2647,6 +2647,101 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Retired">
+<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
+In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="AUDIO_JACK_0.25&quot;_TRS_PTH_VERTICAL">
+<wire x1="0" y1="0" x2="11.6" y2="0" width="0.127" layer="21"/>
+<wire x1="11.6" y1="0" x2="15.8" y2="0" width="0.127" layer="21"/>
+<wire x1="15.8" y1="0" x2="15.8" y2="4.2" width="0.127" layer="21"/>
+<wire x1="15.8" y1="4.2" x2="15.8" y2="15.8" width="0.127" layer="21"/>
+<wire x1="15.8" y1="15.8" x2="0" y2="15.8" width="0.127" layer="21"/>
+<wire x1="0" y1="15.8" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="11.6" y1="0" x2="15.8" y2="4.2" width="0.127" layer="21"/>
+<circle x="7.9" y="7.9" radius="3.215" width="0.127" layer="21"/>
+<circle x="7.9" y="7.9" radius="5.9" width="0.127" layer="21"/>
+<pad name="TIP" x="1.4" y="7.4" drill="2.2"/>
+<pad name="RING" x="8.4" y="14.4" drill="2.2"/>
+<pad name="RING-NORM" x="14.4" y="10.4" drill="2.2"/>
+<pad name="SLEEVE" x="12.496" y="3.304" drill="2.2"/>
+<pad name="TIP-NORM" x="5.4" y="1.4" drill="2.2"/>
+<wire x1="4.7" y1="7.9" x2="11.1" y2="7.9" width="0.127" layer="21"/>
+<wire x1="7.9" y1="11.1" x2="7.9" y2="4.7" width="0.127" layer="21"/>
+<text x="0" y="16.002" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<circle x="7.8994" y="7.8994" radius="3.3445125" width="0.0762" layer="20"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AUDIO-JACK5-TRS-NORMALED">
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<text x="-5.08" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-6.35" y1="-5.08" x2="-5.08" y2="5.08" layer="94"/>
+<pin name="RING" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="EARTH" x="5.08" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="TIP" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.048" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="1.27" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.048" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-3.81" x2="2.032" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-3.81" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<pin name="TIP-NORM" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="RING-NORM" x="5.08" y="-5.08" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AUDIO_JACK_TRS_0.25&quot;_PTH_VERTICAL" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;Audio Jack, 1/4" TRS jack, VERTICLEl, PTH, aka "Phono jack"&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;Note, this footprint is UN-proven. It has not yet been used by SparkFun on a design.&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="AUDIO-JACK5-TRS-NORMALED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AUDIO_JACK_0.25&quot;_TRS_PTH_VERTICAL">
+<connects>
+<connect gate="G$1" pin="EARTH" pad="SLEEVE"/>
+<connect gate="G$1" pin="RING" pad="RING"/>
+<connect gate="G$1" pin="RING-NORM" pad="RING-NORM"/>
+<connect gate="G$1" pin="TIP" pad="TIP"/>
+<connect gate="G$1" pin="TIP-NORM" pad="TIP-NORM"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COM-11152" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2699,6 +2794,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="RLED-12V" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RLED+12V" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="" package3d_urn="urn:adsk.eagle:package:13300/1" value="10k"/>
+<part name="AUDIOIN_L" library="SparkFun-Retired" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_VERTICAL" device=""/>
+<part name="AUDIOIN_R" library="SparkFun-Retired" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_VERTICAL" device=""/>
+<part name="AUDIOOUT_L" library="SparkFun-Retired" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_VERTICAL" device=""/>
+<part name="AUDIOOUT_R" library="SparkFun-Retired" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_VERTICAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2870,6 +2969,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="RLED+12V" gate="G$1" x="127" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="138.43" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="130.302" y="138.43" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AUDIOIN_L" gate="G$1" x="203.2" y="68.58" smashed="yes">
+<attribute name="NAME" x="198.12" y="74.168" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="198.12" y="60.96" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="AUDIOIN_R" gate="G$1" x="203.2" y="50.8" smashed="yes">
+<attribute name="NAME" x="198.12" y="56.388" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="198.12" y="43.18" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="AUDIOOUT_L" gate="G$1" x="241.3" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="246.38" y="62.992" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="246.38" y="76.2" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="AUDIOOUT_R" gate="G$1" x="241.3" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="246.38" y="45.212" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="246.38" y="58.42" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>

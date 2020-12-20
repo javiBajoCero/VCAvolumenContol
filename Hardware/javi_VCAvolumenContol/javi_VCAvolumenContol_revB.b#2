@@ -2791,6 +2791,10 @@ https://imgur.com/0m7hy4D</text>
 <text x="18.5" y="97.4" size="1.778" layer="26" rot="MR0">IN_R</text>
 <text x="10.55" y="77.45" size="1.778" layer="26" rot="MR0">OUT_L</text>
 <text x="9.85" y="61.35" size="1.778" layer="26" rot="MR0">OUT_R</text>
+<text x="18.85" y="29.5" size="1.4" layer="26" rot="MR0">VCAvolumenContol 
+revB
+Javier Muñoz Sáez
+12/10/2020</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
